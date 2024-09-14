@@ -1,5 +1,4 @@
 from machine import Pin, PWM
-from time import sleep_us
 from pid import PID
 from kettle import Kettle
 import time

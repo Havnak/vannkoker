@@ -18,7 +18,7 @@ class Kettle:
         self.delta_t_duty_cycle = 10
         self.time_0_s = time.ticks_ms()*1000
         
-        self.physical_thermometer = ADC(28)
+        self.physical_thermometer = ADC(28) # TODO
         self.physical_output_pin = Pin(physical_output_pin, Pin.OUT) # TODO
         
     def set_goal(self, goal_temperature) -> None:
